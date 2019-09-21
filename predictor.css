@@ -15,7 +15,17 @@
     -moz-border-radius-topleft: 15px;
     -moz-border-radius-topright: 15pxs;
 }
-
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}
 #wrapper .child1 {
     float: left;
     width: 85%;
